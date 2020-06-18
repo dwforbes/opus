@@ -10,8 +10,8 @@ import (
 )
 
 /*
-#cgo pkg-config: opus
-#include <opus.h>
+#cgo LDFLAGS: -lopus
+#include "include/opus.h"
 
 int
 bridge_encoder_set_dtx(OpusEncoder *st, opus_int32 use_dtx)
