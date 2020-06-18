@@ -10,7 +10,7 @@ import (
 )
 
 /*
-#cgo LDFLAGS: -lopus -L./lib
+#cgo LDFLAGS: -lopus
 #include "include/opus.h"
 
 int
